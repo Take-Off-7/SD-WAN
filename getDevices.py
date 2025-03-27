@@ -35,11 +35,7 @@ for device in device_response:
     print(f"Model: {device['device-model']}")
     print('')
 
-
-
-
-
-
-
-
-
+# Get Templates
+# template_url = 'https://sandbox-sdwan-2.cisco.com/dataservice/template/device'
+# template_response = session.get(template_url, verify=False).json()['data']
+# print(template_response)
